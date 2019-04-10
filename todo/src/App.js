@@ -14,17 +14,6 @@ class App extends Component {
     }
   }
 
-  addTodo = text => {
-    let newTodo = {
-      todo: text,
-      completed: false
-    };
-    this.setState(prev => {
-      return { todos: [...prev.todos, newTodo] };
-    });
-  };
-
-
   render() {
     return (
       <div className="App">

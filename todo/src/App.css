@@ -1,6 +1,6 @@
 html,
 body {
-  background-image: linear-gradient(cyan, dodgerblue, slateblue, indigo);
+  background-image: linear-gradient( mediumturquoise, dodgerblue, slateblue, indigo);
   height: 100%;
   font-family: American Typewriter, serif;
   background-attachment: fixed;
